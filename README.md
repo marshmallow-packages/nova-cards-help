@@ -1,6 +1,12 @@
 # Nova Help Card
 
-....
+## Installation
+
+You may install this package using composer.
+
+```bash
+composer require marshmallow/cards-help
+```
 
 ### From config
 
