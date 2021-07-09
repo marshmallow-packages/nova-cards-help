@@ -1,3 +1,3 @@
 Nova.booting((Vue, router, store) => {
-  Vue.component('marshmallow-help', require('./components/Card'))
-})
+    Vue.component("marshmallow-help", require("./components/Card").default);
+});
