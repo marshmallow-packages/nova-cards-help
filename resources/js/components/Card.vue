@@ -50,23 +50,5 @@
         props: {
             card: Object,
         },
-
-        methods: {
-            link(path) {
-                return `https://nova.laravel.com/docs`;
-            },
-        },
-
-        mounted() {
-            // console.log(this.card.title);
-            // console.log(this.card);
-            // this.title = this.card.title;
-        },
-
-        computed: {
-            resources() {
-                return this.link("resources");
-            },
-        },
     };
 </script>
